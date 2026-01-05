@@ -9,7 +9,11 @@ public class classabc1 {
 
 		ChromeDriver driver =  new ChromeDriver();
 		driver.get("https://www.youtube.com");
+		driver.close();
+
+		System.out.print("Sucessfully Opened");
 
 	}
 
 }
+
